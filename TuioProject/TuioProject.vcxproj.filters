@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\TUIO\TuioClient.cpp">
+      <Filter>Tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\TUIO\TuioServer.cpp">
+      <Filter>Tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\TUIO\TuioTime.cpp">
+      <Filter>Tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\ip\IpEndpointName.cpp">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\ip\win32\NetworkingUtils.cpp">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\ip\win32\UdpSocket.cpp">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscPrintReceivedElements.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscReceivedElements.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscTypes.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.cpp">
+      <Filter>ofxTuioClient</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TuioWrappedImg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio">
+      <UniqueIdentifier>{d65ed042-c8b0-487d-9f2c-a80efdc7fb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio\oscpack">
+      <UniqueIdentifier>{fe183411-7aa7-4876-86e9-368748abaadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio\oscpack\ip">
+      <UniqueIdentifier>{cc045e0d-5017-4eb9-829b-e19c589ad435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio\oscpack\osc">
+      <UniqueIdentifier>{5529a101-e95e-4b09-985d-6d522643b2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxTuioClient">
+      <UniqueIdentifier>{3f858e93-9288-4af7-8e71-c6a5d6a719d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioClient.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioContainer.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioCursor.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioListener.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioObject.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioPoint.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioServer.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioTime.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\IpEndpointName.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\NetworkingUtils.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\PacketListener.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\TimerListener.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\UdpSocket.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\MessageMappingOscPacketListener.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscException.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscHostEndianness.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscPacketListener.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscPrintReceivedElements.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscReceivedElements.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscTypes.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.h">
+      <Filter>ofxTuioClient</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TuioWrappedImg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
